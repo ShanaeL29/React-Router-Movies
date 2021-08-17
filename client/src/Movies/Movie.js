@@ -38,7 +38,7 @@ export default function Movie(props) {
   // Uncomment this only when you have moved on to the stretch goals
   // const saveMovie = evt => { }
 
-  // movies.find((movie) => (movie.id === movieId) === parseInt(movieId)); //id is already being plugged in as a string on line 23 so we don't need this here
+  // movies.find((movie) => (movie.id === movieId) === parseInt(movieId)); //id is already being plugged in as a string on line 23 so we don't need this here.
 
   if (!movie) {
     return <div>Loading movie information...</div>;
